@@ -303,6 +303,12 @@ void myHandler(const char *event, const char *data) {
 
 At any time, you can see some sample firmware for both triggering and getting responses from webhooks on your Particle Console. To do this, simply click on one of your product webhooks and scroll down to "Example Device Firmware."
 
+## Debugging and Testing
+
+Sometimes you just want to test how the webhooks work and refer the payload. There are some online services which provide free endpoints for you to test and explore. [Beeceptor](https://beeceptor.com) and [Webhook.Site](https://webhook.site) are a few popular ones to play around webhooks.
+
+**It is important that after your testing is done, you remove these endpoints from the configuration. You should use trusted and private endpoints only to prevent data leaks. Please note that Particle is not responsible in any data leaks.**
+
 ## Advanced Topics
 
 See [the webhook reference](/reference/webhooks) for more details on customizing webhooks with variables, examples of different webhook configurations as well as community guides on setting up webhooks with external services.
