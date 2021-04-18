@@ -693,6 +693,8 @@ You will know events are being skipped if you see a
 `hook-error` event in your event stream that reads "Sleeping, too many errors,
 please wait and try again" in the body.
 
+If you anticipate that your target webservice may respond to data packets with an HTTP status error code, ie a smart wifi plug  is offline and cannot be contacted, then it's a good idea to use middleware to always return a 200 status code to the Particle webhook request. IE you could create a GCP Cloud Function or use AWS HTTP Gateway as your webhook target. In your cloud function or HTTP Gateway you can easily force a code 200 response to Particle. This avoid any impact on the webhook system processing your requests.
+
 We remind you to be a good Internet citizen and only send webhook
 requests to target sites that you have permission to send traffic.
 
