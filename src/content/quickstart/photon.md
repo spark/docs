@@ -100,7 +100,7 @@ We care a lot about security, and we want to make sure that everything you do is
 
 <h3 id="step-2b-connect-your-photon-to-the-internet-using-your-smartphone">Step 2b: Connect your Photon to the Internet using your smartphone<a href="#step-2b-connect-your-photon-to-the-internet-using-your-smartphone" class="header-permalinks"><i class="ion-link"></i></a></h3>
 
-Open the app on your phone. Log in or sign up for an account with Particle if you don&apos;t have one.
+Open the app on your phone. Log in or sign up for an account with Particle if you don&apos;t have one. (Note that on iOS devices you MUST grant the Particle.io app access to "Precise Location" or the set up process will fail.)
 
 Press the plus icon and select the device you'd like to add. Then follow the instructions on the screen to connect your device to Wi-Fi. Your device remembers up to 5 wifi networks, and it will connect to these automatically if it can find them.
 
