@@ -624,7 +624,7 @@ The `loc-enhanced` event will have data the same as the original `loc` event, su
 
 Note that `loc.alt` (altitude), `loc.v_acc` (vertical accuracy), `loc.hd` (heading), and `loc.spd` (speed) are not available for locations derived from location fusion, but if that information was in the original `loc` event from the GNSS, it will be preserved in the `loc-enhanced` event.
 
-#### loc.src
+#### src
 
 The sources used for enhanced geolocation, an array. Can be "cell" or "wifi" or both. Added in Tracker Edge v12.
 
