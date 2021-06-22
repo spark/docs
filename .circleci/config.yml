@@ -42,6 +42,7 @@ jobs:
           arguments: |
             --acl public-read \
             --cache-control "max-age=300"
+            --profile default
           aws-access-key-id: PRERELEASE_AWS_ACCESS_KEY_ID
           aws-secret-access-key: PRERELEASE_AWS_SECRET_ACCESS_KEY
           from: build
