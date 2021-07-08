@@ -125,7 +125,7 @@ device and registered to the Particle cloud.
 
 You pass along the name of the function and the params.
 
-If the function call succeeds, `data.return_value` is the value returned by the function call on the Particle device.
+If the function call succeeds, `data.body.return_value` is the value returned by the function call on the Particle device.
 
 ### claimDevice
 
