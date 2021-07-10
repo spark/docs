@@ -1038,6 +1038,7 @@ Calling `particle config particle` will switch **Particle-Cli** back to the Part
 $ particle config my-profile-name // switch to a new profile called 'my-profile-name'
 $ particle config particle // switch back to your default profile
 $ particle config local apiUrl http://localhost:8080  //creates a new profile with name "local" and saves the IP-address parameter
+$ particle config set proxyUrl http://proxy:8080 //changes the proxy url for the current profile
 $ particle config useSudoForDfu true // sets the `useSudoForDfu` option to `true`
 ```
 
